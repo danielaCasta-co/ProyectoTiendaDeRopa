@@ -1,4 +1,4 @@
-# Class Administrador
+# Clase Administrador
 
 class Administrador:
     Usuario: str
@@ -9,6 +9,25 @@ class Administrador:
 
     def EliminarAdministrador(self):
             return "Eliminar Administrador"
+            
+            
+# Clase CarritoCompras
+
+class CarritoCompras:
+    Codigo: int
+
+    def __init__(self):
+        self.Usuario = Usuario()
+        self.Pedido = Pedido()
+
+        def ReiniciarCarritoCompras(self):
+            return "Reiniciar Carrito Compras"
+        
+        def Usuario(self.Usuario):
+            return "Usuario"
+        
+        def Producto(self.Producto):
+            return "Producto"
 
 # Clase Cliente
 
