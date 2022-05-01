@@ -5,7 +5,7 @@ class Administrador:
     Contraseña: bool
 
     def CambiarContraseña(self):
-            return "Cambiar Contraseña"
+            return "Cambiar Contraseña" 
 
     def EliminarAdministrador(self):
             return "Eliminar Administrador"
@@ -142,3 +142,17 @@ class Factura:
 
         def ReiniciarInventario(self):
             return "Reiniciar Inventario"
+            
+ # Clase MetodoPago
+ 
+ class MetodoPago:
+    IdPago: int
+    TipoPago: str
+
+    def CrearMetodoPago(self):
+            return "Crear Usuario"
+
+    def EliminarMetodoPago(self):
+            return "Eliminar Metodo Pago"
+            
+   
