@@ -110,7 +110,7 @@ class Factura:
     NumeroRUT: int
     NumeroFactura: int
     
-    # Clase Producto 
+    # Clase Producto
     
     class Producto:
     ReferenciaProducto: int
@@ -123,24 +123,6 @@ class Factura:
 
     def ModificarProducto(self):
             return "Modificar Producto"
-    ValorIVA: int
-
-    def __init__(self):
-        self.CarritoCompras = CarritoCompras()
-        self.DetalleFactura = DetalleFactura ()
-        self.Producto = Producto ()
-
-        def Producto(self.Producto):
-            return "Producto"
-        
-        def NuevaCuenta(self):
-            return "Nueva Cuenta"
-
-        def Descuentos(self):
-            return "Descuentos"
-
-        def ValorTotal(self):
-            return "Valor Total"
             
  # Clase Inventario
  
