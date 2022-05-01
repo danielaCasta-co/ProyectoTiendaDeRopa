@@ -155,4 +155,19 @@ class Factura:
     def EliminarMetodoPago(self):
             return "Eliminar Metodo Pago"
             
+  # Clase Pedido
+  
+  class Pedido:
+    Cantidad: int
+
+    def __init__(self):
+        self.Producto = Producto ()
+        self.Cliente = Cliente ()
+
+        def ModificarPedido(self):
+            return "Modificar Pedido"
+
+        def ReiniciarFactura(self):
+            return "Reiniciar Factura"
+            
    
