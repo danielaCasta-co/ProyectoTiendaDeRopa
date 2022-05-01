@@ -184,4 +184,19 @@ class Factura:
         def ReiniciarFactura(self):
             return "Reiniciar Factura"
             
+   # Clase Usuario
+   
+   class Usuario:
+    IdUsuario: int
+    FechaRegistro: int
+
+    def __init__(self):
+        self.DatoContacto = DatoContacto
+
+        def CrearUsuario(self):
+            return "Crear Usuario"
+
+        def EliminarUsuario(self):
+            return "Eliminar Usuario"
+            
    
