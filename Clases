@@ -100,3 +100,30 @@ class Devoluciones:
         
         def CarritoCompras(self.Producto):
             return "Carrito Compras"
+            
+# Clase Factura
+
+class Factura:
+    NombreEmpresa: str
+    Telefono: int
+    Correo: bool
+    NumeroRUT: int
+    NumeroFactura: int
+    ValorIVA: int
+
+    def __init__(self):
+        self.CarritoCompras = CarritoCompras()
+        self.DetalleFactura = DetalleFactura ()
+        self.Producto = Producto ()
+
+        def Producto(self.Producto):
+            return "Producto"
+        
+        def NuevaCuenta(self):
+            return "Nueva Cuenta"
+
+        def Descuentos(self):
+            return "Descuentos"
+
+        def ValorTotal(self):
+            return "Valor Total"
