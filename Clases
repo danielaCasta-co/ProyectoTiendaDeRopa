@@ -109,6 +109,23 @@ class Factura:
     Correo: bool
     NumeroRUT: int
     NumeroFactura: int
+    ValorIVA: int
+    
+    def __init__(self):
+        self.CarritoCompras = CarritoCompras()
+        self.DetalleFactura = DetalleFactura ()
+
+        def Producto(self.Producto):
+            return "Producto"
+        
+        def NuevaCuenta(self):
+            return "Nueva Cuenta"
+
+        def Descuentos(self):
+            return "Descuentos"
+
+        def ValorTotal(self):
+            return "Valor Total"
     
     # Clase Producto
     
