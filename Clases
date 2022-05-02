@@ -1,42 +1,4 @@
-# Clase Administrador
 
-class Administrador:
-    Usuario: str
-    Contraseña: bool
-
-    def CambiarContraseña(self):
-            return "Cambiar Contraseña" 
-
-    def EliminarAdministrador(self):
-            return "Eliminar Administrador"
-                       
-# Clase Cliente
-
-class Cliente:
-    Nombre: str
-    NumeroTarjeta: int
-    Edad: int
-    Sexo: str
-
-    def EditarCliente(self):
-            return "Editar Cliente"
-
-    def EliminarCliente(self):
-            return "Eliminar Cliente"
-            
-# Clase DetalleFactura
-
-class DetalleFactura:
-    ValorUnitario: int
-    CantidadProducto: int
-
-    def __init__(self):
-        self.Producto = Producto()
-        self.Factura = Factura()
-
-        def Producto(self.Producto):
-            return "Producto"           
-            
 # Clase Factura
 
 class Factura:
