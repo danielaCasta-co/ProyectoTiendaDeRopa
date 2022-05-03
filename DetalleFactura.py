@@ -6,5 +6,5 @@ class DetalleFactura:
         self.Producto = Producto()
         self.Factura = Factura()
 
-        def Producto(self.Producto):
-            return "Producto"
+        def Producto(self):
+            DetalleFactura.Producto = Producto
