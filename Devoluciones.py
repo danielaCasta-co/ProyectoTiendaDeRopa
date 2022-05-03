@@ -1,27 +1,28 @@
-# Clase Devoluciones
- 
+from datetime import datetime
+
 class Devoluciones:
     IdDevoluciones: bool
-    Fecha: DateTime
+    Fecha: datetime
 
     def __init__(self):
-        self.Factura = Factura ()
+        self.Factura = Factura()
 
         def Ingresar(self):
-            return "Ingresar"
+            Devoluciones.Ingresar = Ingresar
 
         def Modificar(self):
-            return "Modificar"
+            Devoluciones.Modificar = Modificar
 
         def Eliminar(self):
-            return "Eliminar"
-        
-        def Consultar(self):
-            return "Consultar"
+            Devoluciones.Eliminar = Eliminar
 
-        def Producto(self.Producto):
-            return "Producto"
+        def Consultar(self):
+            Devoluciones.Consultar = Consultar
         
-        def CarritoCompras(self.Producto):
-            return "Carrito Compras"
+        def Producto(self):
+            Devoluciones.Producto = Producto
+
+        def CarritoCompras(self):
+            Devoluciones.CarritoCompras = CarritoCompras
+        
             
