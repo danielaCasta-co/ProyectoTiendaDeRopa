@@ -1,5 +1,3 @@
-# Clase DatoContacto
-
 class DatoContacto:
     Telefono: int
     Direccion: str
