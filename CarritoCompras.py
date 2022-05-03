@@ -1,5 +1,3 @@
-# Clase CarritoCompras
-
 class CarritoCompras:
     Codigo: int
 
@@ -7,13 +5,13 @@ class CarritoCompras:
         self.Usuario = Usuario()
         self.Pedido = Pedido()
         self.Factura = Factura()
-        self.MetodoPago = MetdoPago()
+        self.MetodoPago = MetodoPago()
 
         def ReiniciarCarritoCompras(self):
             return "Reiniciar Carrito Compras"
         
-        def Usuario(self.Usuario):
-            return "Usuario"
+        def Usuario(self):
+            CarritoCompras.Usuario = Usuario
         
-        def Producto(self.Producto):
-            return "Producto"
+        def Producto(self):
+            CarritoCompras.Producto = Producto
