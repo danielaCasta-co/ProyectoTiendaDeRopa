@@ -1,33 +1,6 @@
+# Clase Inventario
 
-# Clase Factura
-
-class Factura:
-    NombreEmpresa: str
-    Telefono: int
-    Correo: bool
-    NumeroRUT: int
-    NumeroFactura: int
-    ValorIVA: int
-    
-    def __init__(self):
-        self.CarritoCompras = CarritoCompras()
-        self.DetalleFactura = DetalleFactura ()
-
-        def Producto(self.Producto):
-            return "Producto"
-        
-        def NuevaCuenta(self):
-            return "Nueva Cuenta"
-
-        def Descuentos(self):
-            return "Descuentos"
-
-        def ValorTotal(self):
-            return "Valor Total"
-
- # Clase Inventario
- 
- class Inventario:
+class Inventario:
     Referencia: str
     Cantidad: int
 
@@ -40,9 +13,9 @@ class Factura:
         def ReiniciarInventario(self):
             return "Reiniciar Inventario"
             
- # Clase MetodoPago
- 
- class MetodoPago:
+#Clase MetodoPago
+
+class MetodoPago:
     IdPago: int
     TipoPago: str
 
@@ -51,15 +24,16 @@ class Factura:
 
     def EliminarMetodoPago(self):
             return "Eliminar Metodo Pago"
-            
-  # Clase Pedido
-  
-  class Pedido:
+          
+          
+# Clase Pedido
+
+class Pedido:
     Cantidad: int
 
     def __init__(self):
         self.Producto = Producto ()
-        self.Cliente = Cliente ()
+        self.PedidoCliente = Usuario ()
 
         def ModificarPedido(self):
             return "Modificar Pedido"
@@ -67,9 +41,9 @@ class Factura:
         def ReiniciarFactura(self):
             return "Reiniciar Factura"
             
-   # Clase Usuario
+# Clase Usuario
    
-   class Usuario:
+class Usuario:
     IdUsuario: int
     FechaRegistro: int
 
@@ -81,5 +55,8 @@ class Factura:
 
         def EliminarUsuario(self):
             return "Eliminar Usuario"
+
+        def ValidarAdministrador(self):
+            return "Validar Administrador"
             
    
