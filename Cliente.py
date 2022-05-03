@@ -5,6 +5,9 @@ class Cliente:
     Edad: int
     Sexo: str
 
+    def __init__(self):
+        self.Pedido = Pedido()
+
     def EditarCliente(self):
             return "Editar Cliente"
 
