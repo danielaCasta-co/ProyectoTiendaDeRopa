@@ -1,14 +1,13 @@
-# Clase Producto
-    
-class Producto:
-    ReferenciaProducto: int
-    NombreProducto: str
-    Categoria: str
-    Genero: str
-    Talla: str
-    Color: str
-    Marca: str
+class Inventario:
+    Referencia: str
+    Cantidad: int
 
-    def ModificarProducto(self):
-            return "Modificar Producto"
+    def __init__(self):
+        self.Producto = Producto ()
+
+        def ActualizarInventario(self):
+            return "Actualizar Inventario"
+
+        def ReiniciarInventario(self):
+            return "Reiniciar Inventario"
             
