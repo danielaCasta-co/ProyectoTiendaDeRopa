@@ -1,8 +1,3 @@
-from ast import Pass
-from binascii import a2b_base64
-from re import A
-
-
 class Usuario():
     def __init__(self,IdUsuario, FechaRegistro):
         self.IdUsuario = IdUsuario
@@ -26,11 +21,11 @@ class Cliente(Usuario):
         self.Edad = Edad
         self.Sexo = Sexo
 
-    def CrearUsuario(self):
+    def EditarCliente(self):
         return self.Cliente
 
-    def EditarCliente(self):
-        return "EditarCliente"
+    def EliminarCliente(self):
+        return "Eliminar Cliente"
 
 class Administrador(Usuario):
     def __init__(self, Usuario, Contraseña):
@@ -38,12 +33,14 @@ class Administrador(Usuario):
         self.Usuario = Usuario
         self.Contraseña  = Contraseña
 
-    def CrearUsuario(self):
-        return self.Usuario
+    def CambiarContraseña(self):
+        return self.Administrador
+    
+    def EliminarAdministrador(self):
+        return self.Administrador
 
-Cliente = Cliente("Laura")
-Administrador = Administrador("Juan")
-print(Administrador)
-print(Administrador.EliminarUsuario())
-print(Cliente.EliminarUsuario())
-print(Administrador.CrearUsuario)
+Cliente = Cliente("Laura", "1055678970", "21", "Femenino")
+Administrador = Administrador("Juan", "123456")
+
+print("Editar cliente:",Cliente.cliente())
+print("Cambiar contraseña:", Administrador.administrador())
