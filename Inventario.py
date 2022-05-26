@@ -26,4 +26,4 @@ Producto = int(input("Producto:"))
 Inventario = Inventario(Referencia, Cantidad, Producto)
 Inventario.ActualizarInventario()
 Inventario.ReiniciarInventario()
-Inventario = Inventario
+Inventario = Inventario  
