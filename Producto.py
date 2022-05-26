@@ -32,7 +32,7 @@ class Producto:
     def ModificarProducto(self):
         print(self.getReferenciaProducto(), self.getNombreProducto(), self.getCategoria(), self.getGenero(), self.getTalla(), self.getColor(), self.getMarca())
 
-ReferenciaProducto = int(input("Referencia del producto:"))        
+ReferenciaProducto = int(input("Referencia del producto:"))          
 NombreProducto = input("Digite el nombre del producto:")
 Categoria = input("Digite la categoria:")
 Genero = input("Digite el genero:")
