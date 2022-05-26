@@ -26,4 +26,4 @@ PedidoCliente = input("Digite el pedido del cliente:")
 Pedido = Pedido(Cantidad, Producto, PedidoCliente)
 Pedido.ModificarPedido()
 Pedido.ReiniciarFactura()
-Pedido = Pedido
+Pedido = Pedido  
