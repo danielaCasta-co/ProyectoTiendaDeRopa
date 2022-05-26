@@ -9,14 +9,16 @@ class MetodoPago:
         def getTipoPago(self):
                 return self.TipoPago
         
+        def EliminarMetodoPago(self):
+            print(self.getIdPago(), self.getTipoPago())  
+        
         def CrearMetodoPago(self):
             print(self.getIdPago(), self.getTipoPago())
-        
-        def EliminarMetodoPago(self):
-            print(self.getIdPago(), self.getTipoPago())    
+          
         
 IdPago = int(input("Digite el ID de pago:"))
 TipoPago =input("Dgite el tipo de pago:") 
+
 
 MetodoPago = MetodoPago(IdPago, TipoPago)
 MetodoPago.CrearMetodoPago()
