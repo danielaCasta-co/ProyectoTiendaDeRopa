@@ -28,4 +28,4 @@ MetodoPago = input("Ingrese el metodo de pago: ")
 
 CarritoCompras = CarritoCompras(Codigo, Usuario, Pedido, Factura, MetodoPago)
 CarritoCompras.ReiniciarCarritoCompras()
-CarritoCompras = CarritoCompras  
+CarritoCompras = CarritoCompras
