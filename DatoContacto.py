@@ -32,7 +32,7 @@ class DatoContacto:
             print(self.getEmail())
         
 Telefono = int(input("Ingrese el numero de telefono: "))
-Direccion = input("Ingrese la direccion: ")
+Direccion = input("Ingrese la direccion: ")  
 Email = int(input("Ingrese el email: "))
 UsuarioPagina = int(input("Ingrese el usuario de la pagina: "))
 ContrasenaPagina = input("Ingrese la contrasena de la pagina: ")
