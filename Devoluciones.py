@@ -32,7 +32,7 @@ class Devoluciones:
     
     def CarritoCompras(self):
         return self.CarritoCompras 
-
+  
 IdDevoluciones = int(input("Digite el ID:"))
 print(IdDevoluciones)
 Factura = str(input("Digite el numero de la factura:"))
