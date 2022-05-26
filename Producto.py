@@ -9,5 +9,5 @@ class Inventario:
             return "Actualizar Inventario"
 
         def ReiniciarInventario(self):
-            return "Reiniciar Inventario"
+            return "Reiniciar Inventario"  
             
