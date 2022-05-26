@@ -39,7 +39,7 @@ class Administrador(Usuario):
     def EliminarAdministrador(self):
         return self.Administrador
 
-Cliente = Cliente("Laura", "1055678970", "21", "Femenino")
+Cliente = Cliente("Laura", "1055568940", "21", "Femenino")
 Administrador = Administrador("Juan", "123456")
 
 print("Editar cliente:",Cliente.cliente())
