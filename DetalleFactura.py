@@ -18,7 +18,7 @@ class DetalleFactura:
     def Producto(self):
         return self.Producto
     
-Producto = input("Digite el producto:")
+Producto = input("Digite el nombre del producto:")
 ValorUnitario = int(input("Digite el valor unitario por producto:"))
 CantidadProducto = int(input("Cantidad por producto:"))
 
