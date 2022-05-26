@@ -33,7 +33,7 @@ class Cliente:
 Nombre = input("Ingrese el nombre: ")
 NumeroTarjeta = int(input("Ingrese el numero de la tarjeta: "))
 Edad = int(input("Ingrese la edad: "))
-Sexo = input("Ingrese el sexo: ")
+Sexo = input("Ingrese el sexo: ")   
 Pedido = input("Digitar el pedido: ")
 
 Cliente = Cliente(Nombre, NumeroTarjeta, Edad, Sexo, Pedido)
