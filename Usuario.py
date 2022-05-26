@@ -21,7 +21,7 @@ class Usuario:
     pass
 
 class Cliente(Usuario):
-    pass
+    pass  
 
 class Administrador(Usuario):
     pass
