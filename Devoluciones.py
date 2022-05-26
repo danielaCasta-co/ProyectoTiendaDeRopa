@@ -31,7 +31,7 @@ class Devoluciones:
         return self.Producto
     
     def CarritoCompras(self):
-        return self.CarritoCompras
+        return self.CarritoCompras 
 
 IdDevoluciones = int(input("Digite el ID:"))
 print(IdDevoluciones)
