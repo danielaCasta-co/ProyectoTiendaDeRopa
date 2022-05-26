@@ -30,7 +30,7 @@ class Factura:
     
     def getNumeroRUT(self):
         return self.NumeroRUT
-    
+      
     def getNumeroFactura(self):
         return self.NumeroFactura
     
