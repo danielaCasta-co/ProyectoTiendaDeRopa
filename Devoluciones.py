@@ -23,6 +23,6 @@ class Devoluciones:
             Devoluciones.Producto = Producto
 
         def CarritoCompras(self):
-            Devoluciones.CarritoCompras = CarritoCompras
+            Devoluciones.CarritoCompras = CarritoCompras 
         
             
